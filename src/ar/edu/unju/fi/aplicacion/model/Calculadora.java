@@ -16,5 +16,9 @@ public class Calculadora {
 		
 		return resultado;
 	}
+	
+	public int restar(int numA, int numB) {
+		return numA-numB;
+	}
 
 }
