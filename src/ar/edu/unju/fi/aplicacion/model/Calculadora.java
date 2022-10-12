@@ -24,5 +24,13 @@ public class Calculadora {
 	public int multiplicar(int a, int b) {
 		return a*b;
 	}
+	
+	public int dividir(int a, int b) {
+		int res =0;
+		if (b != 0) {
+			res = a/b;
+		}
+		return res;
+	}
 
 }
